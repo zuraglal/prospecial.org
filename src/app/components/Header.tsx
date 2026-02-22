@@ -31,7 +31,7 @@ export function Header() {
             <ImageWithFallback
                   src="/pro-special.png"
                   alt="Pro Special logo"
-                  className="w-10svw h-10svw object-cover"
+                  className="w-1svw h-1svw object-cover"
              />
             <span className="text-xl font-bold text-gray-900">Pro Special</span>
           </Link>
