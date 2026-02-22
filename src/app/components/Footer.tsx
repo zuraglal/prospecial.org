@@ -58,7 +58,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>© {currentYear} Pro Special Egyesület. {getTranslation(language, 'allRightsReserved')}</p>
-          <p>Website: Szabó Tímea</p>
+          <p>Website: <a href="mailto:info@map4.me">Szabó Tímea</a></p>
         </div>
       </div>
     </footer>
