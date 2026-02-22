@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Mail } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { getTranslation } from '../utils/translations';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Footer() {
   const { language } = useLanguage();
