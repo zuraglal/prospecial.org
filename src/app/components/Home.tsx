@@ -62,7 +62,7 @@ export function Home() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
-                  src="src/media/2024-05-11-egymasert-egyutt.jpg"
+                  src="/2024-05-11-egymasert-egyutt.jpg"
                   alt="Kirándulás"
                   className="w-full h-full object-cover"
                 />
@@ -99,14 +99,14 @@ export function Home() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
                 <ImageWithFallback
-                  src="src/media/2023-09-30-szlanikfurdo.jpg"
+                  src="/2023-09-30-szlanikfurdo.jpg"
                   alt="Szlanikfürdőn a csapat"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg mt-8">
                 <ImageWithFallback
-                  src="src/media/2024-09-16-meseterapia.jpg"
+                  src="/2024-09-16-meseterapia.jpg"
                   alt="Meseterápiás kör"
                   className="w-full h-full object-cover"
                 />
@@ -152,7 +152,7 @@ export function Home() {
 
           <div className="mt-16 rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
-              src="src/media/2025-09-28-fustolgo-asztfalt.jpg"
+              src="/2025-09-28-fustolgo-asztfalt.jpg"
               alt="7. Füstölgő aszfalt mini paralimpia"
               className="w-full h-96 object-cover"
             />
