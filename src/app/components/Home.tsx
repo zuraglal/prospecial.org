@@ -53,7 +53,7 @@ export function Home() {
                 onClick={() => {
                   // const element = document.getElementById('donation');
                   // element?.scrollIntoView({ behavior: 'smooth' });
-                  window.location.href =  "www.google.com";
+                  window.location.href =  "pro-special-anaf-230-2025.pdf";
                 }}
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
               >
