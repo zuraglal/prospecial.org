@@ -12,9 +12,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">P</span>
-              </div>
+              <ImageWithFallback
+                  src="/pro-special.png"
+                  alt="Pro Special logo"
+                  className="w-full h-full object-cover"
+                />
               <span className="text-xl font-bold">Pro Special</span>
             </div>
             <p className="text-gray-400">
