@@ -66,7 +66,7 @@ export function Home() {
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
-                  className="w-auto h-2/3 object-cover"
+                  className="w-1/3 h-auto object-cover"
                 />
               </div>
             </div>
