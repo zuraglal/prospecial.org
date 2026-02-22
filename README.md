@@ -1,5 +1,5 @@
 
-  # ASSOCIATION PRO SPECIAL
+  # PRO SPECIAL ASSOCIATION
 
   This is a code bundle for 3 Language Static Website. The original project is available at https://www.figma.com/design/lh7X5RIJpyZoaEtfut8VPJ/3-Language-Static-Website.
 
