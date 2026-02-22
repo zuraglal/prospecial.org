@@ -41,7 +41,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{getTranslation(language, 'followUs')}</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/prospecial.org"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
                 aria-label="Facebook"
               >
