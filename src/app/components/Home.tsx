@@ -51,7 +51,7 @@ export function Home() {
               </p>
               <button
                 onClick={() => {
-                  window.location.href =  "pro-special-anaf-230-2025.pdf";
+                  window.location.href = "pro-special-anaf-230-2025.pdf";
                 }}
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
               >
@@ -64,7 +64,7 @@ export function Home() {
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
-                  className="w-2/3 h-auto object-cover"
+                  className="w-full h-auto object-cover"
                 />
               </div>
             </div>
