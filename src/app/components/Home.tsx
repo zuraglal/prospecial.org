@@ -61,7 +61,7 @@ export function Home() {
             </div>
     
             <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
