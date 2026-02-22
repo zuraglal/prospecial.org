@@ -206,9 +206,9 @@ export function Home() {
                   {getTranslation(language, 'addressLabel')}
                 </h3>
                 <p className="text-gray-700 text-lg">
-                  {language === 'hu' && 'Románia'}
-                  {language === 'ro' && 'România'}
-                  {language === 'en' && 'Romania'}
+                  {language === 'hu' && '525400 Kézdivásárhely, Románia'}
+                  {language === 'ro' && '525400 Târgu Secuiesc, România'}
+                  {language === 'en' && '525400 Târgu Secuiesc, Romania'}
                 </p>
               </div>
             </div>
