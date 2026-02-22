@@ -35,8 +35,8 @@ export function Home() {
 
   return (
     <div className="min-h-screen">
-       {/* Donation Section */}
-      <section id="home" className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-20 lg:py-32">
+      {/* Donation Section */}
+      <section id="donation" className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -59,8 +59,9 @@ export function Home() {
                 {getTranslation(language, 'donate')}
               </button>
             </div>
+    
             <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
@@ -191,7 +192,7 @@ export function Home() {
             <ImageWithFallback
               src="/2025-09-28-fustolgo-asztfalt.jpg"
               alt="7. Füstölgő aszfalt mini paralimpia"
-              className="w-full h-96 object-cover"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
