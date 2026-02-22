@@ -51,8 +51,9 @@ export function Home() {
               </p>
               <button
                 onClick={() => {
-                  const element = document.getElementById('donation');
-                  element?.scrollIntoView({ behavior: 'smooth' });
+                  // const element = document.getElementById('donation');
+                  // element?.scrollIntoView({ behavior: 'smooth' });
+                  window.location.href =  "www.google.com";
                 }}
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
               >
