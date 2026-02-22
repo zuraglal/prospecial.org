@@ -35,6 +35,43 @@ export function Home() {
 
   return (
     <div className="min-h-screen">
+       {/* Donation Section */}
+      <section id="home" className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-20 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+                {getTranslation(language, 'donationTitle')}
+              </h1>
+              <p className="text-xl lg:text-2xl text-blue-600 mb-6">
+                {getTranslation(language, 'donationSubtitle')}
+              </p>
+              <p className="text-lg text-gray-700 mb-8">
+                {getTranslation(language, 'donationDescription')}
+              </p>
+              <button
+                onClick={() => {
+                  const element = document.getElementById('donation');
+                  element?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
+              >
+                {getTranslation(language, 'donate')}
+              </button>
+            </div>
+            <div className="relative">
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <ImageWithFallback
+                  src="/pro-special-anaf-230-2025.jpg"
+                  alt="ANAF 230 3,5%"
+                  className="w-1/4 h-1/4 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
