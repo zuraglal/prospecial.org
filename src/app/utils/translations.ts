@@ -9,7 +9,7 @@ export const translations = {
     contact: 'Kapcsolat',
     
     // Hero szekció
-    heroTitle: 'Prospecial Egyesület',
+    heroTitle: 'Pro Special Egyesület',
     heroSubtitle: 'Együtt a speciális szükségletű gyerekekért és családjaikért',
     heroDescription: 'Közösséget építünk, ahol minden gyerek és családja megtalálja a helyét. Heti foglalkozások, programok és táborok várják a speciális szükségletű gyerekeket, felnőtteket, szüleiket és testvéreiket.',
     learnMore: 'Tudj meg többet',
@@ -34,8 +34,8 @@ export const translations = {
     campsTitle: 'Táborok',
     campsDesc: 'Nyári és téli táboraink során élményekkel teli napokat kínálunk, ahol a gyerekek új készségeket tanulhatnak és felejthetetlen emlékeket szerezhetnek.',
     
-    siblingsTitle: 'Testvérprogramok',
-    siblingsDesc: 'Külön figyelmet fordítunk a testvérekre is, akik saját programokon vehetnek részt és megoszthatják élményeiket hasonló helyzetben lévőkkel.',
+    siblingsTitle: 'Partnerségi programok',
+    siblingsDesc: 'Külön figyelmet fordítunk a testvérszervezetekre is, amelyekkel együttműködve közös programokat szervezünk, és megosztjuk egymással tapasztalatainkat.',
     
     // Kapcsolat
     contactTitle: 'Kapcsolat',
@@ -58,7 +58,7 @@ export const translations = {
     contact: 'Contact',
     
     // Secțiunea Hero
-    heroTitle: 'Asociația Prospecial',
+    heroTitle: 'Asociația Pro Special',
     heroSubtitle: 'Împreună pentru copiii cu nevoi speciale și familiile lor',
     heroDescription: 'Construim o comunitate în care fiecare copil și familia sa își găsesc locul. Activități săptămânale, programe și tabere așteaptă copiii cu nevoi speciale, adulți, părinții și frații lor.',
     learnMore: 'Află mai multe',
@@ -83,8 +83,8 @@ export const translations = {
     campsTitle: 'Tabere',
     campsDesc: 'În timpul taberelor noastre de vară și iarnă, oferim zile pline de experiențe în care copiii pot învăța noi abilități și pot crea amintiri de neuitat.',
     
-    siblingsTitle: 'Programe pentru frați',
-    siblingsDesc: 'Acordăm atenție specială și fraților, care pot participa la propriile programe și își pot împărtăși experiențele cu alții în situații similare.',
+    siblingsTitle: 'Program de parteneriat',
+    siblingsDesc: 'Acordăm o atenție specială organizațiilor partenere, cu care colaborăm pentru a organiza programe comune și pentru a împărtăși experiențele noastre.',
     
     // Contact
     contactTitle: 'Contact',
@@ -107,7 +107,7 @@ export const translations = {
     contact: 'Contact',
     
     // Hero section
-    heroTitle: 'Prospecial Association',
+    heroTitle: 'Pro Special Association',
     heroSubtitle: 'Together for children with special needs and their families',
     heroDescription: 'We build a community where every child and their family find their place. Weekly activities, programs and camps await children with special needs, adults, parents and siblings.',
     learnMore: 'Learn more',
@@ -132,8 +132,8 @@ export const translations = {
     campsTitle: 'Camps',
     campsDesc: 'During our summer and winter camps, we offer days full of experiences where children can learn new skills and create unforgettable memories.',
     
-    siblingsTitle: 'Sibling programs',
-    siblingsDesc: 'We pay special attention to siblings as well, who can participate in their own programs and share their experiences with others in similar situations.',
+    siblingsTitle: 'Partnership programs',
+    siblingsDesc: 'We pay special attention to our partner organizations, collaborating on joint programs and sharing our experiences with one another.',
     
     // Contact
     contactTitle: 'Contact',
