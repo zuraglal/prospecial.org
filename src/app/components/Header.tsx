@@ -3,6 +3,7 @@ import { useLanguage, Language } from '../contexts/LanguageContext';
 import { getTranslation } from '../utils/translations';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Header() {
   const { language, setLanguage } = useLanguage();
