@@ -62,8 +62,8 @@ export function Home() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1643214410415-de1976ad74ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMHNwZWNpYWwlMjBuZWVkcyUyMGFjdGl2aXRpZXN8ZW58MXx8fHwxNzcxNzM4NTEyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Children engaging in activities"
+                  src="src/media/2024-05-11-egymasert-egyutt.jpg"
+                  alt="Kirándulás"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -99,15 +99,15 @@ export function Home() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1715775491904-ef5cdae40f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwY2hpbGRyZW4lMjBwbGF5aW5nJTIwdG9nZXRoZXJ8ZW58MXx8fHwxNzcxNzA5MTE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Diverse children playing"
+                  src="src/media/2023-09-30-szlanikfurdo.jpg"
+                  alt="Szlanikfürdőn a csapat"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg mt-8">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1760348082270-3a46a3512850?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBzdXBwb3J0JTIwZ3JvdXB8ZW58MXx8fHwxNzcxNzM4NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Family support"
+                  src="src/media/2024-09-16-meseterapia.jpg"
+                  alt="Meseterápiás kör"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -152,8 +152,8 @@ export function Home() {
 
           <div className="mt-16 rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1565365527469-4008f67e8664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW1tZXIlMjBjYW1wJTIwY2hpbGRyZW58ZW58MXx8fHwxNzcxNzM4NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Summer camp activities"
+              src="src/media/2025-09-28-fustolgo-asztfalt.jpg"
+              alt="7. Füstölgő aszfalt mini paralimpia"
               className="w-full h-96 object-cover"
             />
           </div>
