@@ -16,7 +16,7 @@ export function Footer() {
               <ImageWithFallback
                   src="/pro-special.png"
                   alt="Pro Special logo"
-                  className="w-auto h-auto object-cover"
+                  className="w-1/6 h-1/6 object-cover"
                 />
               <span className="text-xl font-bold">Pro Special</span>
             </div>
