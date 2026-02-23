@@ -40,7 +40,7 @@ export const translations = {
     eventsDesc: 'Különleges események, ünnepségek és családi napok, ahol a családok együtt tölthetnek minőségi időt és új barátságokat köthetnek.',
     
     campsTitle: 'Táborok',
-    campsDesc: 'Nyári és téli táboraink során élményekkel teli napokat kínálunk, ahol a gyerekek új készségeket tanulhatnak és felejthetetlen emlékeket szerezhetnek.',
+    campsDesc: 'Nyári táboraink során élményekkel teli napokat kínálunk, ahol a gyerekek új készségeket tanulhatnak és felejthetetlen emlékeket szerezhetnek.',
     
     siblingsTitle: 'Partnerségi programok',
     siblingsDesc: 'Külön figyelmet fordítunk a testvérszervezetekre is, amelyekkel együttműködve közös programokat szervezünk, és megosztjuk egymással tapasztalatainkat.',
@@ -96,7 +96,7 @@ export const translations = {
     eventsDesc: 'Evenimente speciale, sărbători și zile de familie în care familiile pot petrece timp de calitate împreună și pot face noi prietenii.',
     
     campsTitle: 'Tabere',
-    campsDesc: 'În timpul taberelor noastre de vară și iarnă, oferim zile pline de experiențe în care copiii pot învăța noi abilități și pot crea amintiri de neuitat.',
+    campsDesc: 'În timpul taberelor noastre de vară, oferim zile pline de experiențe în care copiii pot învăța noi abilități și pot crea amintiri de neuitat.',
     
     siblingsTitle: 'Program de parteneriat',
     siblingsDesc: 'Acordăm o atenție specială organizațiilor partenere, cu care colaborăm pentru a organiza programe comune și pentru a împărtăși experiențele noastre.',
@@ -152,7 +152,7 @@ export const translations = {
     eventsDesc: 'Special events, celebrations and family days where families can spend quality time together and make new friendships.',
     
     campsTitle: 'Camps',
-    campsDesc: 'During our summer and winter camps, we offer days full of experiences where children can learn new skills and create unforgettable memories.',
+    campsDesc: 'During our summer camps, we offer days full of experiences where children can learn new skills and create unforgettable memories.',
     
     siblingsTitle: 'Partnership programs',
     siblingsDesc: 'We pay special attention to our partner organizations, collaborating on joint programs and sharing our experiences with one another.',
