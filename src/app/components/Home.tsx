@@ -53,7 +53,7 @@ export function Home() {
                 onClick={() => {
                   window.location.href = "pro-special-anaf-230-2025.pdf";
                 }}
-                className="bg-indigo-600 hover:bg-indigo-800 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
+                className="bg-violet-500 hover:bg-violet-600 text-white px-8 py-3 rounded-lg transition-colors inline-flex items-center gap-2"
               >
                 {getTranslation(language, 'donate')}
               </button>
@@ -82,7 +82,7 @@ export function Home() {
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                 {getTranslation(language, 'heroTitle')}
               </h1>
-              <p className="text-xl lg:text-2xl text-blue-600 mb-6">
+              <p className="text-xl lg:text-2xl text-indigo-600 mb-6">
                 {getTranslation(language, 'heroSubtitle')}
               </p>
               <p className="text-lg text-gray-700 mb-8">
@@ -93,7 +93,7 @@ export function Home() {
                   const element = document.getElementById('about');
                   element?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
+                className="bg-violet-500 hover:bg-violet-600 text-white px-8 py-3 rounded-lg transition-colors inline-flex items-center gap-2"
               >
                 {getTranslation(language, 'learnMore')}
               </button>
@@ -118,7 +118,7 @@ export function Home() {
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
               {getTranslation(language, 'aboutTitle')}
             </h2>
-            <p className="text-xl text-blue-600">
+            <p className="text-xl text-indigo-600">
               {getTranslation(language, 'aboutSubtitle')}
             </p>
           </div>
@@ -162,7 +162,7 @@ export function Home() {
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
               {getTranslation(language, 'programsTitle')}
             </h2>
-            <p className="text-xl text-blue-600">
+            <p className="text-xl text-indigo-600">
               {getTranslation(language, 'programsSubtitle')}
             </p>
           </div>
@@ -206,7 +206,7 @@ export function Home() {
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
               {getTranslation(language, 'contactTitle')}
             </h2>
-            <p className="text-xl text-blue-600 mb-6">
+            <p className="text-xl text-indigo-600 mb-6">
               {getTranslation(language, 'contactSubtitle')}
             </p>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto">
