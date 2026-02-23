@@ -60,7 +60,7 @@ export function Home() {
             </div>
     
             <div className="relative">
-              <div className="rounded-2xl shadow-lg">
+              <div> {/* className="rounded-2xl shadow-lg">*/}
                 <a href="/pro-special-anaf-230-2025.pdf">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
