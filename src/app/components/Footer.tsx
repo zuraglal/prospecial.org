@@ -8,7 +8,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-violet-800 text-white py-12">
+    <footer className="bg-indigo-800 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -20,11 +20,22 @@ export function Footer() {
                 />
               <span className="text-xl font-bold">Pro Special</span>
             </div>
-            <p className="text-gray-400">
+            <p className="text-gray-200">
+              {language === 'hu' && 'Pro Special Egyesület'}
+              {language === 'ro' && 'Asociația Pro Special'}
+              {language === 'en' && 'Pro Special Association'}
+              {/*
               {language === 'hu' && 'Közösséget építünk speciális szükségletű gyerekek és családjaik számára.'}
               {language === 'ro' && 'Construim comunitate pentru copiii cu nevoi speciale și familiile lor.'}
               {language === 'en' && 'Building community for children with special needs and their families.'}
+              */}
             </p>
+            <p className="text-gray-200">
+              {language === 'hu' && 'Adószám: 41138680'}
+              {language === 'ro' && 'CIF: 41138680'}
+              {language === 'en' && 'TIN: 41138680'}
+            </p>
+            <p className="text-gray-200">IBAN: RO27RZBR0000060021117292</p>
           </div>
 
           <div>
