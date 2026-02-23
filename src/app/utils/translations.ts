@@ -10,7 +10,7 @@ export const translations = {
 
 
     // ANAF-támogatás
-    donationTitle: 'Támogasd adód 3,5%-ával tevékenységünket!',
+    donationTitle: 'Ajánld fel adód 3,5%-át!',
     donationSubtitle: 'Asociația Pro Special • 41138680',
     donationDescription: 'Közösséget építünk speciális szükségletű gyerekek és családjaik számára.',
     donate: 'Kitöltöm az ANAF formanyomtatványt',
