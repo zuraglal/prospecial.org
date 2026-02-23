@@ -51,11 +51,11 @@ export function Home() {
               </p>
               <button
                 onClick={() => {
-                  window.location.href = "pro-special-anaf-230-2025.pdf";
+                  window.location.href = "https://formular230.ro/asociatia-pro-special";
                 }}
                 className="bg-violet-500 hover:bg-violet-600 text-white px-8 py-3 rounded-lg transition-colors inline-flex items-center gap-2"
               >
-                {getTranslation(language, 'donate')}
+                {getTranslation(language, 'donateLink')}
               </button>
             </div>
     
@@ -68,6 +68,26 @@ export function Home() {
                   className="w-2/3 h-auto object-cover"
                 />
                 </a>
+              </div>
+
+              <div>
+                <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+                {getTranslation(language, 'donationTitle')}
+                </h1>
+                <p className="text-xl lg:text-2xl text-indigo-600 mb-6">
+                {getTranslation(language, 'donationSubtitle')}
+                </p>
+                <p className="text-lg text-gray-700 mb-8">
+                {getTranslation(language, 'donationDescription')}
+                </p>
+                <button
+                  onClick={() => {
+                  window.location.href = "pro-special-anaf-230-2025.pdf";
+                }}
+                  className="bg-violet-500 hover:bg-violet-600 text-white px-8 py-3 rounded-lg transition-colors inline-flex items-center gap-2"
+              >
+                  {getTranslation(language, 'donatePDF')}
+                </button>
               </div>
             </div>
           </div>
