@@ -43,7 +43,7 @@ export function Home() {
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
                 {getTranslation(language, 'donationTitle')}
               </h1>
-              <p className="text-xl lg:text-2xl text-blue-600 mb-6">
+              <p className="text-xl lg:text-2xl text-indigo-600 mb-6">
                 {getTranslation(language, 'donationSubtitle')}
               </p>
               <p className="text-lg text-gray-700 mb-8">
