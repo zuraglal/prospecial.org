@@ -53,7 +53,7 @@ export function Home() {
                 onClick={() => {
                   window.location.href = "pro-special-anaf-230-2025.pdf";
                 }}
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
+                className="bg-indigo-600 hover:bg-indigo-800 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
               >
                 {getTranslation(language, 'donate')}
               </button>
