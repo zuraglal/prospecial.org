@@ -40,12 +40,17 @@ export function Footer() {
 
           <div>
             <h3 className="font-semibold mb-4">{getTranslation(language, 'contact')}</h3>
-            <div className="space-y-2 text-gray-400">
+            <div className="space-y-2 text-gray-200">
               <p className="flex items-center gap-2">
                 <Mail size={16} />
                 info@prospecial.org
               </p>
               <p>+40 XXX XXX XXX</p>
+              <p>
+                {language === 'hu' && '525400 Kézdivásárhely, Barompiac utca 8.'}
+                {language === 'ro' && '525400 Mun. Târgu Secuiesc, str. Oborului, nr. 8'}
+                {language === 'en' && 'RO-525400 Mun. Târgu Secuiesc, str. Oborului, nr. 8'}
+              </p>
             </div>
           </div>
 
