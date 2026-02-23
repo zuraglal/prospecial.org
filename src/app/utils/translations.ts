@@ -13,7 +13,7 @@ export const translations = {
     donationTitle: 'Ajánld fel adód 3,5%-át!',
     donationSubtitle: 'Asociația Pro Special • 41138680',
     donationDescription: 'Közösséget építünk speciális szükségletű gyerekek és családjaik számára.',
-    donateLink: 'Kitöltöm online' 
+    donateLink: 'Kitöltöm online',
     donatePDF: 'Kitöltöm az ANAF formanyomtatványt',
     
     // Hero szekció
