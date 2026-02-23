@@ -71,15 +71,6 @@ export function Home() {
               </div>
 
               <div>
-                <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                {getTranslation(language, 'donationTitle')}
-                </h1>
-                <p className="text-xl lg:text-2xl text-indigo-600 mb-6">
-                {getTranslation(language, 'donationSubtitle')}
-                </p>
-                <p className="text-lg text-gray-700 mb-8">
-                {getTranslation(language, 'donationDescription')}
-                </p>
                 <button
                   onClick={() => {
                   window.location.href = "pro-special-anaf-230-2025.pdf";
