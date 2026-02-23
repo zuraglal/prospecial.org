@@ -40,25 +40,25 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
             >
               {getTranslation(language, 'home')}
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
             >
               {getTranslation(language, 'about')}
             </button>
             <button
               onClick={() => scrollToSection('programs')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
             >
               {getTranslation(language, 'programs')}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
             >
               {getTranslation(language, 'contact')}
             </button>
@@ -70,7 +70,7 @@ export function Header() {
                   onClick={() => setLanguage(lang.code)}
                   className={`px-3 py-1 rounded-md transition-colors ${
                     language === lang.code
-                      ? 'bg-blue-600 text-white'
+                      ? 'bg-indigo-600 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
@@ -94,25 +94,25 @@ export function Header() {
           <nav className="md:hidden pb-4 flex flex-col gap-4">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-blue-600 transition-colors text-left"
+              className="text-gray-700 hover:text-indigo-600 transition-colors text-left"
             >
               {getTranslation(language, 'home')}
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-blue-600 transition-colors text-left"
+              className="text-gray-700 hover:text-indigo-600 transition-colors text-left"
             >
               {getTranslation(language, 'about')}
             </button>
             <button
               onClick={() => scrollToSection('programs')}
-              className="text-gray-700 hover:text-blue-600 transition-colors text-left"
+              className="text-gray-700 hover:text-indigo-600 transition-colors text-left"
             >
               {getTranslation(language, 'programs')}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-blue-600 transition-colors text-left"
+              className="text-gray-700 hover:text-indigo-600 transition-colors text-left"
             >
               {getTranslation(language, 'contact')}
             </button>
@@ -124,7 +124,7 @@ export function Header() {
                   onClick={() => setLanguage(lang.code)}
                   className={`px-3 py-1 rounded-md transition-colors ${
                     language === lang.code
-                      ? 'bg-blue-600 text-white'
+                      ? 'bg-indigo-600 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
