@@ -60,12 +60,14 @@ export function Home() {
             </div>
     
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden shadow-lg">
+              <div className="rounded-2xl shadow-lg">
+                <a href="/pro-special-anaf-230-2025.pdf">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
                   className="w-full h-auto object-cover"
                 />
+                </a>
               </div>
             </div>
           </div>
