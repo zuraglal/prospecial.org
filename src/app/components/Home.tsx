@@ -245,9 +245,9 @@ export function Home() {
                   {getTranslation(language, 'addressLabel')}
                 </h3>
                 <p className="text-gray-700 text-lg">
-                  {language === 'hu' && '525400 Kézdivásárhely, Románia'}
-                  {language === 'ro' && '525400 Târgu Secuiesc, România'}
-                  {language === 'en' && '525400 Târgu Secuiesc, Romania'}
+                  {language === 'hu' && '525400 Kézdivásárhely, Barompiac utca 8., Románia'}
+                  {language === 'ro' && '525400 Mun. Târgu Secuiesc, str. Oborului, nr. 8, România'}
+                  {language === 'en' && 'RO-525400 Târgu Secuiesc, str. Oborului, nr. 8, Romania'}
                 </p>
               </div>
             </div>
