@@ -59,7 +59,7 @@ export function Home() {
               </button>
             </div>
     
-            <div className="relative">
+            <div className="text-center mb-16 relative">
               <div> {/* className="rounded-2xl shadow-lg">*/}
                 <a href="/pro-special-anaf-230-2025.pdf">
                 <ImageWithFallback
