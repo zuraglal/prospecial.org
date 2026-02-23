@@ -13,7 +13,8 @@ export const translations = {
     donationTitle: 'Ajánld fel adód 3,5%-át!',
     donationSubtitle: 'Asociația Pro Special • 41138680',
     donationDescription: 'Közösséget építünk speciális szükségletű gyerekek és családjaik számára.',
-    donate: 'Kitöltöm az ANAF formanyomtatványt',
+    donateLink: 'Kitöltöm online' 
+    donatePDF: 'Kitöltöm az ANAF formanyomtatványt',
     
     // Hero szekció
     heroTitle: 'Pro Special Egyesület',
@@ -68,7 +69,8 @@ export const translations = {
     donationTitle: 'Redirecționează 3,5% din impozit către noi!',
     donationSubtitle: 'Asociația Pro Special • 41138680',
     donationDescription: 'Construim comunitate pentru copiii cu nevoi speciale și familiile lor.',
-    donate: 'Completez formularul ANAF',
+    donateLink: 'Completez online',
+    donatePDF: 'Completez formularul ANAF',
     
     // Secțiunea Hero
     heroTitle: 'Asociația Pro Special',
@@ -123,7 +125,8 @@ export const translations = {
     donationTitle: 'Support our work by redirecting 3.5% of your income tax!',
     donationSubtitle: 'Asociația Pro Special • 41138680',
     donationDescription: 'Building community for children with special needs and their families.',
-    donate: 'Complete the ANAF form',
+    donatePDF: 'Complete online',
+    donatePDF: 'Complete the ANAF form',
     
     // Hero section
     heroTitle: 'Pro Special Association',
