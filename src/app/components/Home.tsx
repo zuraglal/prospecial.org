@@ -244,10 +244,10 @@ export function Home() {
                   {getTranslation(language, 'phoneLabel')}
                 </h3>
                 <a
-                  href="tel:+40xxxxxxxxx"
+                  href="tel:+40741362509"
                   className="text-blue-600 hover:text-blue-700 text-lg"
                 >
-                  +40 XXX XXX XXX
+                  +40741362509
                 </a>
               </div>
 
