@@ -45,7 +45,7 @@ export function Footer() {
                 <Mail size={16} />
                 info@prospecial.org
               </p>
-              <p>+40 XXX XXX XXX</p>
+              <p>+40741362509</p>
               <p>
                 {language === 'hu' && '525400 Kézdivásárhely, Barompiac utca 8.'}
                 {language === 'ro' && '525400 Mun. Târgu Secuiesc, str. Oborului, nr. 8'}
