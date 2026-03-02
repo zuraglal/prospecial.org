@@ -59,8 +59,8 @@ export function Home() {
               </button>
             </div>
     
-            <div className="text-center mb-16 relative">
-              <div> {/* className="rounded-2xl shadow-lg">*/}
+            <div className="text-center mb-16 relative items-center">
+              <div className="items-center"> {/* className="rounded-2xl shadow-lg">*/}
                 <a href="/pro-special-formular-230-2025.pdf">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
