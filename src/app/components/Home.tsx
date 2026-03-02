@@ -61,7 +61,7 @@ export function Home() {
     
             <div className="text-center mb-16 relative">
               <div> {/* className="rounded-2xl shadow-lg">*/}
-                <a href="/pro-special-anaf-230-2025.pdf">
+                <a href="/pro-special-formular-230-2025.pdf">
                 <ImageWithFallback
                   src="/pro-special-anaf-230-2025.jpg"
                   alt="ANAF 230 3,5%"
@@ -73,7 +73,7 @@ export function Home() {
               <div>
                 <button
                   onClick={() => {
-                  window.location.href = "pro-special-anaf-230-2025.pdf";
+                  window.location.href = "pro-special-formular-230-2025.pdf";
                 }}
                   className="bg-violet-500 hover:bg-violet-600 text-white px-8 py-3 rounded-lg transition-colors inline-flex items-center gap-2"
               >
@@ -156,8 +156,8 @@ export function Home() {
               </div>
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg mt-8">
                 <ImageWithFallback
-                  src="/2024-09-16-meseterapia.jpg"
-                  alt="Meseterápiás kör"
+                  src="/2025-12-23-karacsony.jpg"
+                  alt="Karácsony a kézdivásárhelyi Evangélikus templomban"
                   className="w-full h-full object-cover"
                 />
               </div>
